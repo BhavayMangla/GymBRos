@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image:url('img_gym.jpg');
+    background-size: cover  ;
+    font-family: 'serif', cursive;
+    text-shadow: 4px 4px black;
+
+}
+.left{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    display: inline-block;
+    text-shadow: 4px 4px black;
+     color: burlywood;}
+    .left img{
+        width:100px;
+
+    }
+.right{
+    display: inline-block;
+    /* border: 2px solid blueviolet; */
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    text-shadow: 4px 4px black;
+    color: burlywood;}
+.centre{
+    /* border: 2px solid blue; */
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    color: burlywood;
+    text-shadow: 4px 4px black;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    color: burlywood;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-shadow: 4px 4px black;
+
+}
+.navbar li a{
+    color: burlywood;
+    text-decoration: none;
+    padding: 34px 23px;
+    margin: 2px 3px;
+    text-shadow: 4px 4px black;
+
+}
+.navbar li a:hover{
+    color:grey;
+    text-decoration: underline;
+    padding: 34px 23px;
+    margin: 2px 3px;
+    text-shadow: 4px 4px black;
+
+}
+.right li{
+    color: burlywood;
+    display: inline-block;
+    font-size: 1.1rem;
+    text-shadow: 4px 4px black;
+
+}
+.right li a{
+    color: burlywood;
+    text-decoration: none;
+    padding: 34px 23px;
+    margin: 2px 3px;
+    text-shadow: 4px 4px black;
+
+}
+.right li a:hover{
+    color:grey;
+    text-decoration: underline;
+    padding: 34px 23px;
+    margin: 2px 3px;
+    text-shadow: 4px 4px black;
+
+}
+.container{
+    /* border: 2px solid blanchedalmond; */
+    margin: 100px 60px;
+    padding :20px 20px;
+    width: 50%;
+    border-radius: 2px;
+    color: burlywood;
+    text-shadow: 4px 4px black;
+
+}
+.container h1{
+    color: wheat;
+    text-shadow: 4px 4px black;
+    text-align:center;
+
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black ;
+    color: blanchedalmond;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;}
+    .btn:hover{
+        background-color: rgb(241, 170, 206);
+        color: rgb(32, 32, 32);
+    }
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px auto;
+    border:2px solid gray;
+    border-radius: 3px;
+}
+.container button{
+    display: block;
+    width: 20%;
+    margin: 15px auto;
+    padding: 5px;
+
+}
